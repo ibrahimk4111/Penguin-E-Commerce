@@ -1,11 +1,13 @@
 body {
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
   box-sizing: border-box;
 }
+.margin {
+  margin: 0px 50px;
+}
 .header {
-  background: #fffbf0;
+  background: #fff5da;
   width: 100%;
 }
 /* ---------nav-bar-Start---------- */
@@ -13,11 +15,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .nav-logo img {
   width: 290px;
   height: 40px;
-  margin-left: 50px;
   padding: 20px;
 }
 /* --------nav-bar-links-------- */
@@ -25,6 +27,7 @@ body {
   display: flex;
   margin-right: 30px;
 }
+
 .nav-bar ul li {
   list-style: none;
   margin: 0px 25px;
@@ -34,33 +37,189 @@ body {
   color: rgb(0, 0, 0);
   font-size: 18px;
   padding: 10px;
+  font-weight: 600;
 }
 .nav-bar ul li a:hover {
-  background: black;
+  background: #ffab2d;
   color: white;
   border-radius: 5px;
   transition: all 0.4s ease;
+}
+
+@media all and (max-width: 1050px) {
+  .nav-links ul {
+    display: block;
+    margin-right: 30px;
+  }
+
+  .nav-bar ul li {
+    list-style: none;
+    margin: 0px 25px;
+  }
+  .nav-bar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .nav-bar ul li a:hover {
+    background: #ffab2d;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+  }
 }
 /* ---------nav-bar-end----------- */
 
 /* ----- heading-part-start----------- */
 .heading-part {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-}
-.heading-right img {
-  width: 440px;
-  height: 450px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
+/* -----------header-left-part--------- */
 .heading-left {
-  width: 40%;
-  margin-left: 10%;
+  width: 45%;
+  height: 45%;
+  margin-left: 20px;
 }
 .heading-left h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
-.heading-btn {
-  background: black;
-  width: 200px;
+.heading-left p {
+  width: 400px;
+  text-align: justify;
+  margin-top: -30px;
+}
+
+.heading-left h1 span {
+  color: #ffab2d;
+}
+
+/* ---------------header-right-logo------------ */
+.heading-right {
+  margin-bottom: 20px;
+}
+.heading-right img {
+  width: 400px;
+  height: auto;
+  left: 0px;
+}
+/* -----------header-btn-------------- */
+.btn {
+  background: #ffab2d;
+  width: 150px;
+  display: flex;
+  /* justify-content: space-around; */
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+}
+.btn img {
+  width: 30px;
+  height: 30px;
+}
+.btn a {
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  font-weight: 800;
+}
+/* -----------------women-jacket--------------- */
+.woman-jacket {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.jacket-section .title {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid orange;
+  width: 300px;
+  text-align: center;
+}
+
+.jacket-collection {
+  width: 1200px;
+}
+/* ---------------------card------------------ */
+.woman-jacket .card {
+  width: 300px;
+  height: 550px;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card-content {
+  margin: 5px 15px;
+}
+.card .card-content .image {
+  width: 100%;
+  height: 350px;
+  background: rgba(228, 228, 228, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.card .card-content .card-img {
+  width: 80%;
+  height: 80%;
+}
+.card .card-content .item-description {
+  height: 150px;
+}
+
+.card .card-content .item-description .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -20px;
+}
+.card .card-content .item-description .price h1 {
+  font-size: 2rem;
+  color: #ffab2d;
+}
+/* ----------------footer-section-------------- */
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer-section .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  background: #f0f0f0;
+  width: 95%;
+  border-radius: 10px;
+  margin: 10px;
+}
+.footer-image img {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+
+.footer-left,
+.footer-right {
+  width: 45%;
+}
+
+.footer-right {
+  margin-left: 50px;
+}
+.footer-right img {
+  width: 95%;
+  height: auto;
 }
