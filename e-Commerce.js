@@ -1,42 +1,42 @@
 const jackets = [
     {
         "id": 1,
-        "image": "jacket/image/jacket-1.png",
+        "image": "./jacket/image/jacket-1.png",
         "heading": "Ladies Jacket",
         "description": "Lorem Ipsum is simply dummy textof the printing and typesetting industry.",
         "price": "$234"
     },
     {
         "id": 2,
-        "image": "jacket/image/jacket-2.png",
+        "image": "./jacket/image/jacket-2.png",
         "heading": "Yellow Coat Jacket",
         "description": "Lorem Ipsum is simply dummy textof the printing and typesetting industry.",
         "price": "$234"
     },
     {
         "id": 3,
-        "image": "jacket/image/jacket-3.png",
+        "image": "./jacket/image/jacket-3.png",
         "heading": "Ladies Jacket",
         "description": "Lorem Ipsum is simply dummy textof the printing and typesetting industry.",
         "price": "$234"
     },
     {
         "id": 4,
-        "image": "jacket/image/jacket-4.png",
+        "image": "./jacket/image/jacket-4.png",
         "heading": "Ladies Jacket",
         "description": "Lorem Ipsum is simply dummy textof the printing and typesetting industry.",
         "price": "$234"
     },
     {
         "id": 5,
-        "image": "jacket/image/jacket-5.png",
+        "image": "./jacket/image/jacket-5.png",
         "heading": "Ladies Jacket",
         "description": "Lorem Ipsum is simply dummy textof the printing and typesetting industry.",
         "price": "$234"
     },
     {
         "id": 6,
-        "image": "jacket/image/jacket-6.png",
+        "image": "./jacket/image/jacket-6.png",
         "heading": "Ladies Jacket",
         "description": "Lorem Ipsum is simply dummy textof the printing and typesetting industry.",
         "price": "$234"

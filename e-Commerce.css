@@ -120,17 +120,12 @@ body {
   font-size: 2rem;
   margin-left: 50px;
   padding: 10px 0px;
-  /* display: flex;
-  justify-content: center; */
   background-color: #fff6e9;
   border-radius: 10px;
   width: 40%;
   text-align: center;
 }
 
-/* .jacket-collection {
-  width: 1200px;
-} */
 /* ---------------------card------------------ */
 .woman-jacket .card {
   width: 300px;
@@ -173,7 +168,7 @@ body {
 /* ----------------footer-section-------------- */
 .footer-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 20px;
 }
@@ -181,34 +176,26 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.box {
   background: #f0f0f0;
-  width: 95%;
   border-radius: 10px;
   margin: 10px;
 }
+
 .footer-image img {
   width: 80px;
   height: 80px;
   padding: 10px;
 }
 
-.footer-left,
-.footer-right {
-  width: 45%;
-}
-
 .footer-right {
   margin-left: 50px;
 }
 .footer-right img {
-  width: 95%;
+  width: 500px;
   height: auto;
 }
 /* -------------media-query----------- */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
   .nav-bar {
     margin-bottom: 20px;
     background-color: #ffd9a0;
@@ -228,11 +215,6 @@ body {
   .footer-section {
     display: flex;
     flex-direction: column;
-    width: 100%;
-  }
-  .footer-section .box {
-    display: flex;
-    width: 100%;
   }
 
   .footer-section .footer-right img {
